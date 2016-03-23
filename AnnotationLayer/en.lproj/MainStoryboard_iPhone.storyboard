@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.1" toolsVersion="2182" systemVersion="11D50b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="2">
+    <dependencies>
+        <deployment defaultVersion="1296" identifier="iOS"/>
+        <development defaultVersion="4200" identifier="xcode"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1181"/>
+    </dependencies>
+    <scenes>
+        <!--Annotation View Controller-->
+        <scene sceneID="5">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+                <viewController id="2" customClass="AnnotationViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="IPZ-Ob-CrM">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="460"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <mutableString key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae nulla neque, ut imperdiet libero. Cras sagittis luctus fermentum. Phasellus turpis elit, laoreet nec tincidunt at, ullamcorper et velit. Cras pellentesque est ut lacus posuere ornare. Proin pretium egestas orci quis molestie. Quisque id gravida tellus. Praesent id quam sit amet lorem malesuada euismod in et elit. Duis quis magna nisi. Nunc ante tortor, interdum sit amet ullamcorper ut, dignissim vitae risus.
+
+Fusce non orci quis leo mattis ultricies et eu augue. Vivamus dignissim pellentesque congue. Proin sed orci non mauris dignissim scelerisque id nec ipsum. Mauris tristique dignissim tincidunt. Aliquam egestas ligula vel sapien imperdiet imperdiet scelerisque orci rutrum. Aenean sit amet nunc eu libero sollicitudin eleifend. Pellentesque vestibulum, diam tincidunt venenatis rhoncus, nunc est ullamcorper diam, ut elementum lorem odio in lacus. Praesent convallis lobortis enim non accumsan. In scelerisque convallis molestie.
+
+Aliquam placerat pellentesque neque vel laoreet. Aliquam erat volutpat. Aliquam erat volutpat. Proin arcu enim, condimentum non interdum at, consectetur eget lorem. In malesuada consectetur ante, et ultricies lectus placerat non. Phasellus eleifend, odio in cursus malesuada, nulla velit pretium massa, eu iaculis tellus orci quis diam. Vivamus varius purus nec erat viverra adipiscing.
+
+Aliquam nec mattis ipsum. Praesent tellus erat, aliquet in semper in, elementum id lectus. Nulla facilisi. Pellentesque dapibus pellentesque erat suscipit ultricies. Integer sagittis, justo in hendrerit luctus, eros turpis pretium turpis, et dapibus risus nulla eget nibh. Proin non nibh libero. Quisque porttitor ultricies arcu ut mattis. Praesent et velit quam, at placerat quam. Nam tempor laoreet eleifend. Proin nec arcu id sem suscipit luctus nec aliquet velit. Mauris venenatis ipsum in lorem posuere consectetur. Etiam bibendum lacinia justo, in ultricies sapien convallis id.
+
+Quisque placerat mauris tincidunt lectus mollis aliquam. Cras laoreet molestie orci facilisis porta. In hac habitasse platea dictumst. Quisque hendrerit feugiat felis sed aliquet. Praesent id libero sem, eget molestie justo. Donec nisl mi, dictum ac consequat sed, iaculis id risus. Fusce non tortor condimentum nisi mollis tincidunt ac at diam. Integer id dui at augue convallis ultrices quis tincidunt sapien. In velit arcu, semper vitae eleifend aliquet, iaculis nec massa.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+            </objects>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>
